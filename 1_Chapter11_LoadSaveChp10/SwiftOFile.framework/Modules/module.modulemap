@@ -1,0 +1,11 @@
+framework module SwiftOFile {
+  umbrella header "SwiftOFile.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftOFile.Swift {
+    header "SwiftOFile-Swift.h"
+    requires objc
+}
